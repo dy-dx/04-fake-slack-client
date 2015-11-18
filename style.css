@@ -1,3 +1,26 @@
 html, body {
 	margin: 0;
 }
+
+li {
+    list-style-type: none;
+    border: 1px solid blue;
+    border-top: 0;
+    padding: 10px;
+    background-color: beige;
+}
+
+li:nth-child(even) {
+    background-color: white;
+}
+
+.username {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    color: gray;
+}
+
+.timestamp {
+    font-family: courier;
+}
