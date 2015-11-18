@@ -5,6 +5,11 @@ You will be creating your own chat client for a "Fake Slack" server.
 
 ##References/Tools
 
+http://api.jquery.com/val/
+http://www.w3schools.com/jsref/met_win_settimeout.asp
+https://api.jquery.com/jquery.get/
+http://api.jquery.com/jquery.post/
+
 
 ##Instructions
 
@@ -18,10 +23,8 @@ The chat server is located at https://node-slack-christopherjkim.c9.io/ and prov
 Click the "Fork" button on the top-right corner of this page.
 
 ###2) Clone your new repo into a Cloud9 account workspace
-1. Copy the "clone URL" from your new repository
-2. In your Cloud9 dashboard click on the "Create a New Workspace" button and select "Clone from URL"
-3. Give this workspace a name that is appropriate and be sure it is set to public
-4. Insert the clone URL from this repo and select a custom template
+1. Login to Cloud9 and go to https://c9.io/account/repos
+2. Find "04-fake-slack-client" and click "Clone to edit"
 
 Once the workspace has been processed check to be sure it is up to date by running ` git status ` in the terminal. You should receive a messege telling you that your branch is up to date.   
 ![Imgur](http://i.imgur.com/RKdsduL.png)
@@ -33,3 +36,7 @@ To push to GitHub run the following commands in your terminal:
 `git add .`  
 `git commit -m "example comment"`  
 `git push origin master`
+
+###3)
+
+Use the starter code in index.html and script.js
